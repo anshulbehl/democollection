@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: CollGroup.mycollection1
+  description: Craig Brandt Playbook project
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: craig-br/democollection
+  links:
+    - url: https://devspaces.apps.y1a9e1j9r7y1i8l.cbm5.p1.openshiftapps.com/#https://github.com/#https://github.com/craig-br/democollection
+      title: OpenShift Dev Spaces
+      icon: web
+spec:
+  type: playbook-project
+  system: network
+  lifecycle: production
+  owner: Craig
